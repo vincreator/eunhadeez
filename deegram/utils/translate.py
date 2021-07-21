@@ -1,28 +1,35 @@
-VERSION = "0.2.1"
-CREATOR = "@hafitzXD"
-BOT_NAME = "Deezfitz"
+VERSION = "0.2.2"
+CREATOR = "@oViNc"
+BOT_NAME = "Eunha Deezer Downloader"
+DONATE = "https://saweria.co/vincreator"
 WELCOME_MSG = (
     f"🎶🎵 Welcome to {BOT_NAME} 🎵🎶\n\n"
     "Click /help for more information."
 )
 INFO_MSG = (
     f"👤 Creator: {CREATOR}\n"
-    f"ℹ Version: {VERSION}"
+    f"ℹ Version: {VERSION}\n"
+    f"🍩 Donate: {DONATE}"
 )
 STATS_MSG = (
-    "Bot Uptime: {}\n"
-    "Total disk space: {}\n"
-    "Used: {}\n"
-    "Free: {}"
+    "**Bot Uptime:** {}\n"
+    "**Total Disk Space:** {}\n"
+    "**Used:** {} "
+    "**Free:** {}\n\n"
+    "📊Data Usage📊\n**Upload:** {}\n"
+    "**Download:** {}\n\n"
+    "**CPU:** {}\n"
+    "**RAM:** {}\n"
+    "**DISK:** {}"
 )
 HELP_MSG = (
-    "Search by album or track or just send me a Deezer track or album link and I will download it for you :)\n\n"
+    "Search by Album or Track or just send me a Deezer Track or Album link and I will download it for you 🙂\n\n"
     "**List of all commands:**\n"
     "/start - Get the welcome message\n"
     "/help - Get this message\n"
     "/settings - Change your preferences\n"
-    "/info - Get some useful information about the bot\n"
-    "/stats - Get some statistics about the bot\n"
+    "/info - Get some useful information about the Bot\n"
+    "/stats - Get some statistics about the Bot\n"
 )
 DOWNLOAD_MSG = "Downloading…"
 UPLOAD_MSG = "Uploading…"
@@ -40,5 +47,5 @@ TRACK_MSG = (
     "📅 Date: {}"
 )
 CHOOSE = "Choose:"
-SEARCH_ALBUM = "Search album 💽"
-SEARCH_TRACK = "Search track 🎧"
+SEARCH_ALBUM = "Search Album 💽"
+SEARCH_TRACK = "Search Track 🎧"

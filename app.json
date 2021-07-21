@@ -1,34 +1,39 @@
 {
-  "name": "Deegram",
+  "name": "EunhaDeez",
   "description": "A Telegram bot to download music from Deezer",
-  "logo": "https://telegra.ph/file/6507910fd06d18dfaba82.jpg",
+  "logo": "https://i.imgur.com/M1RPKHo.png",
   "keywords": [
     "telegram",
     "deezer"
   ],
-  "repository": "https://github.com/breakdowns/deegram",
-  "success_url": "https://github.com/breakdowns/deegram",
-  "website": "https://github.com/breakdowns/deegram",
+  "repository": "https://github.com/vincreator/eunhadeez",
+  "success_url": "https://github.com/vincreator/eunhadeez",
+  "website": "https://github.com/vincreator/eunhadeez",
   "env": {
     "API_ID": {
       "description": "Get this value from https://my.telegram.org",
-      "value": ""
+      "value": "",
+      "required": true
     },
     "API_HASH": {
       "description": "Get this value from https://my.telegram.org",
-      "value": ""
+      "value": "",
+      "required": true
     },
     "BOT_TOKEN": {
       "description": "Get this value from @BotFather",
-      "value": ""
+      "value": "",
+      "required": true
     },
     "DEEZER_TOKEN": {
       "description": "Get your API token from Deezer",
-      "value": ""
+      "value": "",
+      "required": true
     },
     "OWNER_ID": {
       "description": "Owner Telegram ID",
-      "value": ""
+      "value": "",
+      "required": true
     }
   },
   "addons": [
